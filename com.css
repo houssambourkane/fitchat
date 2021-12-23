@@ -1,0 +1,95 @@
+/*----------------COMMENTAIRE-----------------*/
+#div_comment h3
+{
+	font-size: 40px;
+	font-family: 'Overpass', sans-serif;
+}
+#div_comment
+{
+	margin:auto;
+	margin-top: 40px;
+}
+#div_comment p
+{
+
+	font-family: 'Nunito Sans', sans-serif;
+}
+#form_comment
+{
+	display: flex;
+	flex-direction: column;
+	width:600px;
+	height: 400px;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+#form_comment label
+{
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+#prenom
+{
+	width:200px;
+
+}
+#email
+{
+	width:200px;
+}
+#submit
+{
+	width:240px;
+	height: 50px;
+	background: none;
+	text-decoration: none;
+	font-weight: bold;
+	font-size:15px;
+	font-family: 'Comfortaa', cursive;
+
+}
+#submit:hover
+{
+	cursor: pointer;
+	background-color: #CD853F;
+	color:white;
+}
+#commentaire
+{
+	width:500px;
+	height:100px;
+	overflow: auto;
+	resize: auto;
+}
+#prenom, #email, #submit, #commentaire
+{
+	border: 2px solid rgba(0, 0, 0.1, 0.1);
+	max-width: 100%;
+}
+
+#prenom:focus, #email:focus, #submit:focus, #commentaire:focus
+{
+	color:white;
+	background-color: #303030;
+	font-family: 'Quicksand', sans-serif;
+}
+#aff_prenom
+{
+	font-size:25px;
+}
+#aff_date
+{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 13px;
+	margin-top:-20px;
+}
+
+
+#aff_commentaire
+{
+	font-family: 'Antic Slab', serif;
+	font-size:17px;
+}
